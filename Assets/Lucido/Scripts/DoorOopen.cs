@@ -24,9 +24,9 @@ public class DoorOopen : MonoBehaviour
     {
         if(other.gameObject.tag=="Key")
         {
-           // key.GetComponent<DistanceGrabbable>().enabled = false;
-            key.transform.position= doorLock.transform.position;
-            key.transform.rotation= doorLock.transform.rotation;
+           //key.GetComponent<DistanceGrabbable>().enabled = false;
+            key.transform.position= doorLock.transform.position  ;
+            key.transform.rotation= doorLock.transform.rotation ;
 
             key.GetComponent<Rigidbody>().useGravity =false;
             key.GetComponent<Rigidbody>().isKinematic =true;

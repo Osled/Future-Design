@@ -7,6 +7,7 @@ TagManager:
   - Egypt
   - Key
   - Door
+  - Pyram
   layers:
   - Default
   - TransparentFX

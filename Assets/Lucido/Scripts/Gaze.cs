@@ -34,7 +34,7 @@ public class Gaze : MonoBehaviour
         }
         if (timer <= 0)
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("Egypt");
             envo.SetActive(false);
             pin.SetActive(false);
             timer = 5;
