@@ -150,8 +150,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 79995434}
   m_LocalRotation: {x: -0.34541765, y: 0.67755985, z: 0.28553867, w: -0.58315265}
-  m_LocalPosition: {x: 0.0358, y: 0.6406, z: 0.5238}
-  m_LocalScale: {x: 0.08458117, y: 0.08458118, z: 0.08458118}
+  m_LocalPosition: {x: 0.022, y: 0.702, z: 0.605}
+  m_LocalScale: {x: 0.34329805, y: 0.3432981, z: 0.3432981}
   m_Children: []
   m_Father: {fileID: 1021142564210858914}
   m_RootOrder: 2
@@ -1038,15 +1038,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 66cbf5d49d81dae4eb8005a3831a3436, type: 3}
       propertyPath: m_LocalScale.x
-      value: 39.760193
+      value: 149.87605
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 66cbf5d49d81dae4eb8005a3831a3436, type: 3}
       propertyPath: m_LocalScale.y
-      value: 39.760193
+      value: 149.87605
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 66cbf5d49d81dae4eb8005a3831a3436, type: 3}
       propertyPath: m_LocalScale.z
-      value: 39.76019
+      value: 149.87604
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 66cbf5d49d81dae4eb8005a3831a3436, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2322,7 +2322,7 @@ GameObject:
   - component: {fileID: 1026437334004083083}
   m_Layer: 8
   m_Name: Pyram (1)
-  m_TagString: Pyram
+  m_TagString: Home Final
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
