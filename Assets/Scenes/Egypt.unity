@@ -4690,6 +4690,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VolumetricCloud
       objectReference: {fileID: 0}
+    - target: {fileID: 168336, guid: 4a7f6f970c8701e499eec5ac167e39db, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 444702, guid: 4a7f6f970c8701e499eec5ac167e39db, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -4704,7 +4708,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 444702, guid: 4a7f6f970c8701e499eec5ac167e39db, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 23.198324
+      value: 21.928326
       objectReference: {fileID: 0}
     - target: {fileID: 444702, guid: 4a7f6f970c8701e499eec5ac167e39db, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4760,6 +4764,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a7f6f970c8701e499eec5ac167e39db, type: 3}
+--- !u!1 &1193384794 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 168336, guid: 4a7f6f970c8701e499eec5ac167e39db, type: 3}
+  m_PrefabInstance: {fileID: 1193384793}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1194355446
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7254,6 +7263,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VenomSpell
       objectReference: {fileID: 0}
+    - target: {fileID: 137782, guid: cdea235694a86bd4eb61ae7cffd8de49, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 499650, guid: cdea235694a86bd4eb61ae7cffd8de49, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -7268,7 +7281,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 499650, guid: cdea235694a86bd4eb61ae7cffd8de49, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 24.13
+      value: 22.86
       objectReference: {fileID: 0}
     - target: {fileID: 499650, guid: cdea235694a86bd4eb61ae7cffd8de49, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7328,6 +7341,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdea235694a86bd4eb61ae7cffd8de49, type: 3}
+--- !u!1 &1744031277 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 137782, guid: cdea235694a86bd4eb61ae7cffd8de49, type: 3}
+  m_PrefabInstance: {fileID: 1744031276}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1745883369
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8475,6 +8493,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Animator: {fileID: 1331988859}
   m_AnimatorW: {fileID: 1199272783}
+  effect0: {fileID: 1193384794}
+  effect1: {fileID: 1744031277}
 --- !u!82 &1989404959
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8489,7 +8509,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: -0.92
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

@@ -6,6 +6,8 @@ public class WallsClose : MonoBehaviour
 {
     public Animator  m_Animator;
     public Animator  m_AnimatorW;
+    public GameObject effect0;
+    public GameObject effect1;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +24,10 @@ public class WallsClose : MonoBehaviour
           if(other.gameObject.tag=="Wall")
         {
             Debug.Log("fly");
+            effect0.SetActive(true);
+             effect1.SetActive(true);
              m_AnimatorW.SetBool("Open", true);
+              this.GetComponent<AudioSource>().enabled =false;
         }
     }
    

@@ -10,6 +10,7 @@ public class Gaze : MonoBehaviour
     public float timer = 5f;
     public GameObject envo;
     public GameObject pin;
+    public string scenes;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +25,7 @@ public class Gaze : MonoBehaviour
         if(Physics.Raycast(transform.position, transform.forward, out hit, range))
         {
            
-            if (hit.collider.tag == "Egypt")
+            if (hit.collider.tag == scenes)
             {
                 Debug.Log("hit");
                 Debug.Log(hit.transform.tag);
@@ -34,7 +35,7 @@ public class Gaze : MonoBehaviour
         }
         if (timer <= 0)
         {
-            SceneManager.LoadScene("Egypt");
+            SceneManager.LoadScene(scenes);
             envo.SetActive(false);
             pin.SetActive(false);
             timer = 5;
