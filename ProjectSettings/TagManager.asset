@@ -8,6 +8,8 @@ TagManager:
   - Key
   - Door
   - Pyram
+  - Wall
+  - Change
   layers:
   - Default
   - TransparentFX

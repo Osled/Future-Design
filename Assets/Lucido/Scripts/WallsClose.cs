@@ -5,6 +5,7 @@ using UnityEngine;
 public class WallsClose : MonoBehaviour
 {
     public Animator  m_Animator;
+    public Animator  m_AnimatorW;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +17,15 @@ public class WallsClose : MonoBehaviour
     {
         
     }
+    public void OnTriggerEnter(Collider other)
+    {
+          if(other.gameObject.tag=="Wall")
+        {
+            Debug.Log("fly");
+             m_AnimatorW.SetBool("Open", true);
+        }
+    }
+   
        public void OnCollisionExit(Collision other)
     {
        if(other.gameObject.tag=="Pyram")
@@ -23,6 +33,7 @@ public class WallsClose : MonoBehaviour
              m_Animator.SetBool("Open", true);
         }
     }
+   
     
  
 }
