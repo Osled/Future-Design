@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 79995436}
   m_Layer: 0
   m_Name: Pinpoint
-  m_TagString: Egypt
+  m_TagString: Home Final
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2322,7 +2322,7 @@ GameObject:
   - component: {fileID: 1026437334004083083}
   m_Layer: 8
   m_Name: Pyram (1)
-  m_TagString: Home Final
+  m_TagString: Pyram
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
