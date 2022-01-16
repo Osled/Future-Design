@@ -31,6 +31,8 @@ public class DoorOopen : MonoBehaviour
             key.GetComponent<Rigidbody>().useGravity =false;
             key.GetComponent<Rigidbody>().isKinematic =true;
             m_Animator.SetBool("Open", true);
-        }
+
+}
     }
+
 }
