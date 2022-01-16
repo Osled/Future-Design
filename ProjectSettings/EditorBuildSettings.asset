@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Egypt.unity
     guid: f7171912dbd013c44917d1767680971e
+  - enabled: 1
+    path: Assets/Scenes/Space.unity
+    guid: df593a320500c864b944dbe6d9028b42
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 61fbcac9901d2714c94afa7053052f79, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6330db468814ccc41aa70517e296249a, type: 2}

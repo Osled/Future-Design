@@ -31,6 +31,7 @@ public class WallsClose : MonoBehaviour
        if(other.gameObject.tag=="Pyram")
         {
              m_Animator.SetBool("Open", true);
+             this.GetComponent<AudioSource>().enabled =true;
         }
     }
    

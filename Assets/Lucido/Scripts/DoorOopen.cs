@@ -7,6 +7,7 @@ public class DoorOopen : MonoBehaviour
     public GameObject doorLock;
     public GameObject key;
     public Animator m_Animator;
+    public GameObject Trap;
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +31,7 @@ public class DoorOopen : MonoBehaviour
 
             key.GetComponent<Rigidbody>().useGravity =false;
             key.GetComponent<Rigidbody>().isKinematic =true;
+            Trap.GetComponent<AudioSource>().enabled =true;
             m_Animator.SetBool("Open", true);
 
 }
