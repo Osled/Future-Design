@@ -11,6 +11,7 @@ TagManager:
   - Wall
   - Change
   - Hand
+  - Home Final
   layers:
   - Default
   - TransparentFX
